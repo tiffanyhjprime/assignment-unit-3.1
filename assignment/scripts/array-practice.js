@@ -55,8 +55,8 @@ console.log( 'The last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
-
-
+animalArray.length;
+  console.log(lastAnimal);
 
 
 
