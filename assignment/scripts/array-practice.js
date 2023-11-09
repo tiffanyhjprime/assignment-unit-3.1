@@ -134,10 +134,18 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'.
 //      Remember to console.log the updated array.
-
+gems[1] = 'Tourmaline'
+console.log('The second gem is', gems[1]);
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
+
+gems.sort();
+console.log( 'The alphabetical order of the gems is:', gems );
+
+gems.reverse();
+console.log( 'Reversed gems', gems);
+
 
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
@@ -147,6 +155,8 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 //       "Emerald and Diamond and Tourmaline and Topaz"
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
+gemString = gems.join( " and " );
+console.log(gemString);
 
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
@@ -155,7 +165,8 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
 
-
+let colorfulGems = gems.concat(colors);
+console.log(colorfulGems);
 
 
 // DO NOT MODIFY
